@@ -1,0 +1,93 @@
+Started by user Sneha
+Running as SYSTEM
+Building in workspace C:\Users\sneha\.jenkins\workspace\Sep1st2025
+[Sep1st2025] $ cmd /c call C:\Users\sneha\AppData\Local\Temp\jenkins7138696156728190207.bat
+
+C:\Users\sneha\.jenkins\workspace\Sep1st2025>echo hello welcome to the jenkins 
+hello welcome to the jenkins
+
+C:\Users\sneha\.jenkins\workspace\Sep1st2025>exit 0 
+[Sep1st2025] $ cmd /c call C:\Users\sneha\AppData\Local\Temp\jenkins1267267508250854194.bat
+
+C:\Users\sneha\.jenkins\workspace\Sep1st2025>cd /d D:\Eclipse\CGI_aug_2025   && mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< Cgi_Aug_2025:Cgi_aug_2025 >----------------------
+[INFO] Building Cgi_aug_2025 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Cgi_aug_2025 ---
+[INFO] Deleting D:\Eclipse\CGI_aug_2025\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Cgi_aug_2025 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ Cgi_aug_2025 ---
+[INFO] Changes detected - recompiling the module! :source
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 4 source files with javac [debug target 21] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Cgi_aug_2025 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ Cgi_aug_2025 ---
+[INFO] Changes detected - recompiling the module! :dependency
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 31 source files with javac [debug target 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /D:/Eclipse/CGI_aug_2025/src/test/java/com/Orangehrm/stepdefinitions/TestRunner.java: D:\Eclipse\CGI_aug_2025\src\test\java\com\Orangehrm\stepdefinitions\TestRunner.java uses or overrides a deprecated API.
+[INFO] /D:/Eclipse/CGI_aug_2025/src/test/java/com/Orangehrm/stepdefinitions/TestRunner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Cgi_aug_2025 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+This is Before Suite
+This is Before Test
+This is Before Class
+This is Before Method
+Title is:Your Store
+Mac heading is successfully verified
+This is After Method
+This is Before Method
+Title is:Your Store
+Mac heading is successfully verified
+This is After Method
+This is After class
+This is After Test
+This is After Suite
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.70 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  53.236 s
+[INFO] Finished at: 2025-09-02T13:00:09+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
