@@ -1,0 +1,80 @@
+Started by user Vivek V Patil
+Running as SYSTEM
+Building in workspace C:\Users\Dell\OneDrive\Desktop\CGI\Lab\Lab5\CGI_AUG2025
+[CGI_AUG2025] $ cmd.exe /C "mvn -f pom.xml clean test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Automation_CGI:Automation_CGI:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.poi:poi:jar -> duplicate declaration of version 5.2.5 @ line 48, column 14
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.poi:poi-ooxml:jar -> version 4.1.2 vs 5.2.5 @ line 54, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< Automation_CGI:Automation_CGI >--------------------
+[INFO] Building Automation_CGI 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Automation_CGI ---
+[INFO] Deleting C:\Users\Dell\OneDrive\Desktop\CGI\Lab\Lab5\CGI_AUG2025\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Automation_CGI ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Automation_CGI ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Automation_CGI ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Automation_CGI ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 28 source files with javac [debug target 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /C:/Users/Dell/OneDrive/Desktop/CGI/Lab/Lab5/CGI_AUG2025/src/test/java/com/oranghrm/stepdefinitions/TestRunner.java: C:\Users\Dell\OneDrive\Desktop\CGI\Lab\Lab5\CGI_AUG2025\src\test\java\com\oranghrm\stepdefinitions\TestRunner.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Dell/OneDrive/Desktop/CGI/Lab/Lab5/CGI_AUG2025/src/test/java/com/oranghrm/stepdefinitions/TestRunner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Automation_CGI ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+file path is:C:\Users\Dell\OneDrive\Desktop\CGI\Lab\Lab5\atomation_ecercise\src\test\resources\Testdata\dynamicdata.xlsx
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+rows:3
+Before method
+After method
+Before method
+After method
+Before method
+After method
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.91 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.345 s
+[INFO] Finished at: 2025-09-02T10:53:57+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
