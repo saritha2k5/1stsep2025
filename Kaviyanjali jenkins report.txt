@@ -1,0 +1,67 @@
+Started by user Kaviyanjali M
+Running as SYSTEM
+Building in workspace C:\Users\HP\.jenkins\workspace\Project
+[Project] $ cmd /c call C:\Users\HP\AppData\Local\Temp\jenkins16476093545619688797.bat
+
+C:\Users\HP\.jenkins\workspace\Project>cd C:\Users\HP\eclipse-workspace\CGI_AUG2025 
+
+C:\Users\HP\eclipse-workspace\CGI_AUG2025>"C:\maven\apache-maven-3.9.11\bin\mvn.cmd" clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< CGI_AUG2025:CGI_AUG2025 >-----------------------
+[INFO] Building CGI_AUG2025 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ CGI_AUG2025 ---
+[INFO] Deleting C:\Users\HP\eclipse-workspace\CGI_AUG2025\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CGI_AUG2025 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ CGI_AUG2025 ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 5 source files with javac [debug target 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ CGI_AUG2025 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ CGI_AUG2025 ---
+[INFO] Recompiling the module because of changed dependency.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 30 source files with javac [debug target 17] to target\test-classes
+[ERROR] /C:/Users/HP/eclipse-workspace/CGI_AUG2025/src/test/java/Regression_Test_Suite/TC_Reg_End_to_End_Scen_004_5_6.java:[30,52] unmappable character (0x9D) for encoding windows-1252
+[ERROR] /C:/Users/HP/eclipse-workspace/CGI_AUG2025/src/test/java/Regression_Test_Suite/TC_Reg_End_to_End_Scen_004_5_6.java:[38,56] unmappable character (0x9D) for encoding windows-1252
+[ERROR] /C:/Users/HP/eclipse-workspace/CGI_AUG2025/src/test/java/Regression_Test_Suite/TC_Reg_End_to_End_Scen_004_5_6.java:[47,50] unmappable character (0x9D) for encoding windows-1252
+[ERROR] /C:/Users/HP/eclipse-workspace/CGI_AUG2025/src/test/java/Regression_Test_Suite/TC_Reg_End_to_End_Scen_004_5_6.java:[50,53] unmappable character (0x9D) for encoding windows-1252
+[INFO] /C:/Users/HP/eclipse-workspace/CGI_AUG2025/src/test/java/com/ecommerce_app/stepdefinitions/TestRunner.java: C:\Users\HP\eclipse-workspace\CGI_AUG2025\src\test\java\com\ecommerce_app\stepdefinitions\TestRunner.java uses or overrides a deprecated API.
+[INFO] /C:/Users/HP/eclipse-workspace/CGI_AUG2025/src/test/java/com/ecommerce_app/stepdefinitions/TestRunner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ CGI_AUG2025 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+2025-09-01T13:02:28.022480200Z main ERROR Log4j API could not find a logging provider.
+rows:1
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.32 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.771 s
+[INFO] Finished at: 2025-09-01T18:32:42+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

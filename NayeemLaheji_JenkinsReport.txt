@@ -1,0 +1,60 @@
+Started by user Nayeem Laheji
+Running as SYSTEM
+Building in workspace C:\Users\Nayeem\.jenkins\workspace\A1
+[A1] $ cmd /c call C:\Users\Nayeem\AppData\Local\Temp\jenkins16740484243514536725.bat
+
+C:\Users\Nayeem\.jenkins\workspace\A1>cd C:\Users\Nayeem\eclipse-workspace\Automation_project_A1 
+
+C:\Users\Nayeem\eclipse-workspace\Automation_project_A1>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< nayeem:nayeem >-----------------------------
+[INFO] Building nayeem 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ nayeem ---
+[INFO] Deleting C:\Users\Nayeem\eclipse-workspace\Automation_project_A1\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ nayeem ---
+[INFO] skip non existing resourceDirectory C:\Users\Nayeem\eclipse-workspace\Automation_project_A1\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ nayeem ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ nayeem ---
+[INFO] Copying 60 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ nayeem ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug target 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ nayeem ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Sep 02, 2025 10:46:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 02, 2025 10:46:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Sep 02, 2025 10:46:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 02, 2025 10:46:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Extent HTML: C:\Users\Nayeem\eclipse-workspace\Automation_project_A1\src\test\resources\Reports\20250902\AutomationExercise_TestSuite_20250902_104609.html
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.73 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.341 s
+[INFO] Finished at: 2025-09-02T10:46:27+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
